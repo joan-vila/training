@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "practice/packages/videotype.proto";
+
+package mycompany.mooc.content;
+
+message Video {
+    VideoType type = 1;
+    string url = 2;
+}
+
