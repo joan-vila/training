@@ -1,0 +1,13 @@
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - jupyter
+  - ipywidgets
+  - matplotlib
+  - openpyxl
+  - pandas
+  - scikit-learn
+  - scipy
+  - seaborn
+  - tqdm
